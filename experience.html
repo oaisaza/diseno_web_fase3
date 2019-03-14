@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--
+OAISAZA ADSI 1694121
+-->
+<html>
+    <head>
+        <title>ANDRES ISAZA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #000;
+}
+
+/* Header/Blog Titulo */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: gray;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style top navi */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* color en hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* 2 columnas */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>   
+    </head>
+    <body>
+<div class="header">
+  <h1>ANDRES ISAZA</h1>
+  <div style="height:50px;"><img src="img/ai_logo.jpg" alt="" style="float:right"/></div>
+  <p>[IS]ANALYST/DEVELOPER | IT |CIBERSECURITY</p>
+</div>
+
+<div class="topnav">
+  <a href="/">HOME</a>
+  <a href="profile.html">ESTUDIOS</a>
+  <a href="experience.html">EXPERIENCIA</a>
+  <a href="mailto:aisaza@gmail.com?Subject=Hola mundo" style="float:right">CONTACT</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Titulo H2</h2>
+      <h5>Titulo H5 descripcion, Mar 14, 2019</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>tExperience
+Cyxtera Technologies
+CTAC Analyst Leader
+May 2015 - Present
+Sanko IT
+Technical Support Manager
+June 2011 - May 2015 (4 years)
+Bogotá Colombia
+Understanding of the company's technical products, ex: data storage and
+networking (WiFi, Lan techs).
+Planning and tech problem-solving.
+Interactions with manufactures, vendors, customers, tech personnel, and
+management.
+Sanko Telecom Co., Ltd
+Project Support
+April 2008 - March 2011 (3 years)
+Support for marketing team, network infrastructure team and international
+business team.
+IMD JAPAN
+Project Dev, Support
+January 2006 - December 2009 (4 years)
+Sagamihara Japan
+Support for, marketing team, international business team.</p>
+      <p>.....</p>
+    </div>
+    <div class="card">
+      <h2>TITULO H2</h2>
+      <h5>Titulo descripcion</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>texto........</p>
+      <p>.....................</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:50px;"><img src="img/aisaza_ph.png" alt=""/></div>
+      
+      <p>texto ....</p>
+    </div>
+    <div class="card">
+      <h3>H3 Texto ........</h3>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Redes</h3>
+      <p>texto......</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer/abajo</h2>
+</div>
+        
+        
+    </body>
+</html>
